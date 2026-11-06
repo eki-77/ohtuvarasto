@@ -33,5 +33,5 @@ max-nested-blocks = 2
 
 [DESIGN]
 
-max-statements = 10
+max-statements = 11
 

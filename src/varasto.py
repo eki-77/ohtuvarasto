@@ -12,8 +12,8 @@ class Varasto:
         elif alku_saldo <= tilavuus:
             # mahtuu
             self.saldo = alku_saldo
-        #else:
-        #    self.saldo = tilavuus
+        else:
+            self.saldo = tilavuus
 
     # huom: ominaisuus voidaan myös laskea.
     def paljonko_mahtuu(self):
